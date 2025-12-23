@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Curricular Psicología</title>
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- Fuente linda y suave -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>🌸 Malla Curricular Psicología 🌸</h1>
+    <p class="motivacion" id="mensajeMotivacional"></p>
+  </header>
+
+  <!-- Contenedor principal -->
+  <main class="malla" id="malla"></main>
+
+  <!-- Modal de ramos bloqueados -->
+  <div class="modal" id="modal">
+    <div class="modal-contenido">
+      <h3>💔 Ramo bloqueado</h3>
+      <p id="mensajeBloqueo"></p>
+      <button onclick="cerrarModal()">Entendido</button>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
